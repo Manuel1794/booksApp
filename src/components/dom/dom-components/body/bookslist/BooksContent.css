@@ -1,0 +1,129 @@
+.modal {
+    background-color: rgba(0,0,0, .85);
+    width: 100vw;
+    height: 100vh; 
+    position: fixed;
+    z-index: 9999999999999999;
+    display: none;
+    justify-content: center;
+    align-items: center; /**/
+}
+
+.modalBooksList{
+    background-image:url("../../../../assets/img/background_f8.png");
+    width: 90vw;
+    height: 96vh;
+    padding:2rem;
+    border-radius:15px;
+    overflow-y:hidden;
+}
+
+.modal-open  {
+    display: grid;
+}
+
+.iconClose {
+    position:absolute;
+    right:0;
+    top:0;
+    margin-top:1rem;
+    margin-right:1rem;
+    
+}
+.iconClose:hover{
+    transform:scale(1.082);    
+    cursor:pointer;
+}
+
+@media (max-width:700px) {
+    .iconClose{
+        height:25px;
+    }
+}
+
+.modalSearch{
+    /* background:red; */
+    /* display:flex;
+    justify-content:left; */
+    margin-bottom:0.7rem;
+}
+
+.contentModal{
+    height:100%;
+    background:yellow;
+}
+
+.booksResults{
+    height:83vh;
+    overflow-y:auto;
+    -webkit-box-shadow: inset 0.1px -59px 43px 56px rgba(209,209,209,0.1);
+    -moz-box-shadow: inset 0.1px -59px 43px 56px rgba(82,67,82,0.1);
+    box-shadow: inset 0.1px  -12px rgba(82,67,82,0.075);
+}
+
+.libroResponse{
+    /* background:yellow; */
+    margin:1rem;
+    height:280px;
+    width:250px;
+    display:flex;
+    justify-content: center;
+    -webkit-box-shadow: 0px 1px 20px -2px rgba(140,141,148,1);
+    -moz-box-shadow: 0px 1px 20px -2px rgba(140,141,148,1);
+    box-shadow: 0px 1px 20px -2px rgba(140,141,148,1);
+border-radius:27px;
+    
+    /* margin-top:1rem; */
+}
+
+.libroResponse:hover{
+    transform:scale(1.0095)
+}
+
+.botonAgregar {
+    background:#f1f1f1;
+    color:#000;
+}
+
+.botonAgregar:hover{
+    background:#20603d;
+    color:#000;
+}
+
+.addedBook{
+    background:#20603d;
+    color:#000;
+}
+.cardSearch{
+    width:250px;
+    height:281px;
+    position:relative;
+    /* background:blue; */
+}
+
+.imgSearch{
+    width:250px;
+    height:180px;
+}
+
+.cardSearch button{
+    position:absolute;
+    height:20px;
+    bottom:0;
+    width:100%;
+    border:none;
+}
+
+
+@media (max-width:700px) {
+    .modalSearch{
+        margin-left:-3rem;
+    }
+}
+
+@media (max-width:430px) {
+    .modalSearch{
+        margin-left:-3.75rem;
+    }
+}
+

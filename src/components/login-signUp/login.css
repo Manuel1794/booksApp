@@ -1,0 +1,170 @@
+.login{
+    background:url("../assets/img/background_books.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    z-index:-1;
+}
+
+.login .contentLogin{
+    background:url("../assets/img/background_f8.png");
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    height:90vh;
+    background:'#fff';
+    border-radius:14px;
+    box-shadow: 0px 0px 65px -38px rgba(250,250,250,1);
+}
+
+.logoLogin {
+    /* margin-top:-1rem; */
+    height:60px;
+}
+
+.logoSignup{
+    height:60px;
+    /* margin-top:0.15rem; */
+}
+
+.contenidoLogin{
+    width:85%;
+    /* margin-bottom:1rem; */
+}
+
+.messageLogin{
+    margin-top:3rem;
+    font-size:1.2rem;
+}
+
+.messageSignup{
+    margin-top:1rem;
+    margin-bottom:-1rem;
+}
+
+.messageSignup #createMessage{
+    color: #20603d;
+    font-size:1.55rem;
+}
+
+.createSuccess{
+    margin-top:2rem;
+    font-size:1.125rem;
+    color:#20603d;
+}
+
+.messageSignup p{
+    font-size:1rem;
+}
+.errorSign{
+    color:#ff6961;
+}
+
+.login .contenidoLogin .loginForm {
+    margin-top:0.75rem;
+    display:flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.login form .inputLogin {
+    border-style:none;
+    /* margin:0.75rem; */
+    margin-top:-0.1rem;
+    width:300px;
+    border-radius:8px;
+    padding:5px;
+    z-index:9999;
+}
+
+.login form .errorInput {
+    border-style:none;
+    background:#ff6961;
+    /* margin:0.75rem; */
+    margin-top:-0.1rem;
+    width:300px;
+    border-radius:8px;
+    padding:5px;
+    z-index:9999;
+}
+
+.login form .errorInput::placeholder {
+
+    color:#000;
+}
+
+.login form input:focus {
+    outline:none;
+}
+
+.login .contentLogin form {
+    display:flex;
+    flex-direction: column;
+    margin-bottom:1rem;
+}
+
+#submitButton {
+    margin-top:0.75rem;
+}
+
+.login .contentLogin button {
+    padding:0.35rem; 
+    background:transparent;
+    border-style: none;
+    margin:auto;
+    margin-top:1rem;
+    height:35px;
+    width:40%;
+    border-radius:8px;
+}
+
+.login .contentLogin button:hover {
+    background:#fff;
+    transform:scale(1.001);
+}
+
+.login .contentLogin button:focus{
+    outline:none;
+}
+
+.googleSign{
+    padding:1rem;
+    margin-left:0.35rem;
+    display:flex;
+    align-items: center;
+    flex:wrap;
+    width:55%;
+    height:60px;
+    border-radius:14px;
+}
+
+.googleSign p{
+    margin-top:1rem;
+    margin-left:0.35rem;
+}
+
+.googleSign:hover{
+    background:#fff;
+    cursor:pointer;
+    transform:scale(1.005);
+    margin-left:0.35rem;
+}
+
+.googleIcon{
+    height:40px;
+}
+
+.noAccount{
+    padding:0.25rem;
+    margin-top:1rem;
+    margin-left:1rem;
+}
+
+.noAccount a{
+    text-decoration: none;
+}

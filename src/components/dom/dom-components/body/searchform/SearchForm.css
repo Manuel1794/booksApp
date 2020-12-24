@@ -1,0 +1,51 @@
+.formulario {
+    margin-bottom:-1.25rem;
+    height:55px;
+}
+
+.formulario input{
+    margin-right: 0.25rem;
+    border-style: none;
+    border-radius: 5px;
+    height:35px;
+    width:250px;
+    padding:0.45rem;
+    background:#fff;
+}
+
+#searchIcon {
+    cursor:pointer;
+}
+
+@media (max-width:700px) {
+
+    #searchValue {
+        margin-left:3rem;
+    }
+
+    #searchIcon {
+        height:18px;
+    }
+}
+
+@media (max-width:490px) {
+    #searchValue {
+        margin-top:0.35rem;
+        height: 28px;
+    }
+}
+
+@media (max-width:340px){
+    #searchValue {
+        margin-left:2rem;
+        width:200px;
+    }
+}
+
+.formulario input:focus{
+    outline: none;
+    -webkit-box-shadow: inset 7px -59px 39px -78px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 7px -59px 39px -78px rgba(0,0,0,0.75);
+box-shadow: inset 7px -59px 39px -78px rgba(0,0,0,0.75);
+color:#000;
+}

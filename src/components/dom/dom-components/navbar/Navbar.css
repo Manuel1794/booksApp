@@ -1,0 +1,167 @@
+  .laBarra{
+    height: 100vh;
+    padding:0.5rem;
+    width: 100%;
+  } 
+
+  @media (max-width:700px) {
+    .laBarra {
+      height:12vh;
+    }
+  }
+
+  .bgBarra{
+    background-image:url("../../../assets/img/background_f8.png")
+  }
+
+  .bgBooks{
+    background-image:url("../../../assets/img//background_books.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: start;
+  }
+
+  .Sidebar {
+    height:97vh;
+    border-radius:10px;
+    -webkit-box-shadow: 1px 4px 5px 2px rgba(122,122,122,0.5);
+    -moz-box-shadow: 1px 4px 5px 2px rgba(122,122,122,0.5);
+    box-shadow: 1px 4px 5px 2px rgba(122,122,122,0.5);
+  }
+
+  @media (max-width:700px) {
+    .Sidebar {
+      height:9vh;
+      display:flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+  }
+
+  .logoBook{
+    height:90px;
+    width:90px;
+  }
+
+  @media (max-width:768px) {
+    .logoBook{
+      height:40px;
+      width:45px;
+    }
+  }
+
+  .SidebarList {
+    margin-top:5rem;
+    padding: 0;
+  }
+
+  @media (max-width:700px){
+    .SidebarList{
+      margin-top:-2rem;
+      display:flex;
+      flex-direction:row;
+      align-items: center;
+      margin: inherit;
+      cursor:pointer;
+    }
+  }
+
+  .SidebarList a{
+    text-decoration: none;
+  }
+
+  .SidebarList a .elLi{
+    margin-bottom:0.45rem;
+  }
+
+.mainBook{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:2rem;
+}
+
+@media (max-width:700px) {
+  .mainBook {
+    margin-top:0;
+    padding-left:2rem;
+  }
+}
+
+@media (max-width:400px) {
+  .mainBook {
+    padding-left:0.25rem;
+  }
+}
+
+  .SidebarList .elLi {
+    height: 40px;
+    list-style-type: none;
+    margin: 0%;
+    display: flex;
+    color: white;
+    align-items: center;
+  }
+  
+  .SidebarList .elLi:hover {
+    cursor: pointer;
+    background-color: hsl(224, 12%, 76%,0.8);
+    border-radius:17px;
+  }
+  
+  .elLi #icon {
+    flex: 30%;
+    display: grid;
+    place-items: center;
+  }
+  
+  .elLi #title {
+    flex: 70%;
+    font-size:1.085rem;    
+  }
+  
+  @media (max-width:700px) {
+    .iconSmall{
+      padding-right:2.25rem;
+    }
+  }
+
+  @media (max-width:400px) {
+    .iconSmall{
+      padding-right:1.25rem;
+    }
+  }
+
+  .nav-text{
+    margin-top:1rem;
+  }
+
+.logoutNavbar{
+    display:flex;
+    align-items: center;
+}
+
+.logoutNavbar p {
+    margin-top:0.55rem;
+    padding: 0.25rem;
+    background:hsl(224, 12%, 76%,0.95);
+    border-radius: 4px;
+    color:#fff;
+    font-weight: 600;
+}
+
+.logout:hover{
+    background: hsl(224, 12%, 76%,0.8);
+    color:#fff;
+}
+
+#title{
+    color:#fff;
+    font-weight: 800;
+}
+
+.itemLi .nav-text{
+  background: hsl(224, 12%, 76%,0.8);
+  border-radius:17px;
+}
