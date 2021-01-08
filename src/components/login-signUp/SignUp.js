@@ -43,7 +43,7 @@ const SignUp = () => {
             )
         {
             setDisableLogin(false)
-            return alert('llena todos los campos mardito')
+            return alert('llena todos los campos')
         }
         if(passwordRefI.current.value!==passwordRefII.current.value){
             setErrorInput(true)
