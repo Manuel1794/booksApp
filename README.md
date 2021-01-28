@@ -4,7 +4,7 @@ Al estar alojada en Heroku, hace que sea un poco lento su funcionamiento.
 
 ////////=>
 
-wanna see the app working, get in here -> https://myappbooksweb.herokuapp.com
+wanna see the app working? get in here -> https://myappbooksweb.herokuapp.com
 
 Sorry for the delay in time charging of the app, heroku is not too fast :/
 
