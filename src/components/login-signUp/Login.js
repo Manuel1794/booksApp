@@ -23,7 +23,7 @@ const Login = ({history}) => {
         
         if(emailRef.current.value.trim()===""||passwordRef.current.value.trim()===""){
             setDisableLogin(false)
-            return alert('llena todos los campos mardito')
+            return alert('llena todos los campos')
         }
         try{
             await login(emailRef.current.value, passwordRef.current.value)
