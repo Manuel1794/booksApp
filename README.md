@@ -1,5 +1,3 @@
-Para ver la aplicación en funcionamiento, entra aquí:
-https://appbooks-67f00.web.app/
 
 ////////////*****************/////////**************///////////
 
